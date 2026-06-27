@@ -1,0 +1,11 @@
+luaD_throw = 0x3DB8EE0
+ScriptContextResume = 0x1BB2F10
+OpcodeLookupTable = 0x615E500
+Print = 0x1C7BFE0
+Task_Spawn = 0x7215B0
+PushInstance = 0x1BBF540
+LuaO_nilobject = 0x5C5F178
+KTable = 0x7AD3310
+FireRightMouseClick = 0x23DB230
+TaskScheduler = 0x826EAF0
+FakeDataModel = 0x6DF4168

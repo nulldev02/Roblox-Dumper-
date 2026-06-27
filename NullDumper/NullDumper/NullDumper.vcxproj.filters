@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Patterns">
+      <UniqueIdentifier>{23bed653-2e14-4621-9411-3a85c668ef89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{efc4f955-0d20-4854-859a-f8628469e90a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dumper">
+      <UniqueIdentifier>{ce2f9375-3e8d-4d58-9c54-3d8448ce5b6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{8703e08b-4adb-4926-a1ef-3a7684ee34d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Patterns.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Memory.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Dumper.cpp">
+      <Filter>Dumper</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordClient.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Patterns.h">
+      <Filter>Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Dumper.h">
+      <Filter>Dumper</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordClient.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

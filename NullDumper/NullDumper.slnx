@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="NullDumper/NullDumper.vcxproj" Id="72f52031-db1f-45f6-9831-9f4bce131d0b" />
+</Solution>
